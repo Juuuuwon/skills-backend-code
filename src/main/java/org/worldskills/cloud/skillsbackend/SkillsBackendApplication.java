@@ -37,7 +37,7 @@ public class SkillsBackendApplication {
 
         LocalDateTime currentDateTime = LocalDateTime.now();
 
-        data.put("time", currentDateTime);
+        data.put("time", currentDateTime + "v2");
 
         log.info("GET | /api/time | 200");
 
